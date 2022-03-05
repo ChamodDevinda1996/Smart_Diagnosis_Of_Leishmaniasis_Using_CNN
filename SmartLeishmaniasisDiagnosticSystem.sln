@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FFECE2A2-914
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5D0D388A-E6EC-4682-BE76-89B8072277A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagnosticSystem.WebApi", "DiagnosticSystem.WebApi\DiagnosticSystem.WebApi.csproj", "{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE6008A6-EF11-454C-BA23-4BB18C3FFEF3} = {FFECE2A2-9147-43DE-820E-2A27730FD59C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A5E0466-20B9-4C05-BEA1-9D3296083412}
